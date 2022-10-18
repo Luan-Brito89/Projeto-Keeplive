@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!-- Estilos -->
+    <link rel="stylesheet" href="/Src/Style/reset.css">
+    <link rel="stylesheet" href="/Src/Style/home.css">
+    <title>Compass - Home</title>
+</head>
+<body>
+    <header>
+            <div class="cabecalho">
+                <a class="logo-uol">
+                    <img class="logo" src="/Src/img/logo-compass.png"alt="Logo Compass UOL">
+                </a>
+
+
+                <div class="clock">      
+                    <p class="time" id="time"></p>      
+                    <p class="date" id="data"></p>    
+                </div>
+
+
+                <div class="Clima-api">
+                        <div class="city">Cidade Exemplo, BR</div>
+                        <!-- <div class="date">Terça, 1 Dezembro 2020</div> -->
+                        <div class="container-img">
+                        <img src="/Src/icons/unknown.png">
+                        </div>
+                        <div class="container-temp">
+                        <div>22</div>
+                        <span>°</span>
+                        </div>
+                        <!-- <div class="weather py-2">Nublado</div>
+                        <div class="low-high">22°c / 23°c</div> -->
+                </div>
+            </div>
+        </header>
+
+        <main> 
+
+            <div class="conteudo-principal">
+                <div class="logo-content">
+                    <img class="logo-compass" src="/Src/img/logo-boll.png" alt="logo-compass">
+                </div>
+
+                <div class="conteudo-txt">
+                    <p class="txt-eng-minusculo">Our mission is</p>
+                    <p class="txt-br">Nossa missão é</p>
+                    <p class="txt-eng">to transform the world</p>
+                    <p class="txt-br">transformar o mundo</p>
+                    <p class="txt-eng">building digital experiences</p>
+                    <p class="txt-br">construindo experiências digitais</p>
+                    <p class="txt-eng">that enable our client’s growth</p>
+                    <p class="txt-br">que permitam o crescimento dos nossos clientes</p>
+
+                </div>
+
+            </div>
+        </main>
+
+        <footer class="rodape">
+            <div class="footer-footer">
+                <p class="txt-aviso-autenticacao">Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.
+
+                </p>
+                <div>
+                    <img class="linha-footer" src="/Src/img/line.png">
+                </div>
+
+                <h2 class="txt-atualizar">Application refresh in</h2>
+
+                <div id="contadorSegundos" class="contadorSegundos">
+                    <h1 id="timerSegundos" class="timerSegundos"></h1>
+        
+                    <p class="texto-segundos">seconds</p>
+                </div>
+
+
+            </div>
+
+                <div class="botoes-footer">
+                <a href="https://noticias.uol.com.br/"><button class="botao-continuar-navegando">Continuar Navegando</button></a>
+                <button class="botao-logout"> <a href="../pages/login.html">Logout</a></button>
+
+            </div>
+
+        </footer>
+
+
+        <script src="/Src/Js/clock.js"></script>
+        <script src="/Src/Js/Tempo.js"></script>
+        <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+</body>
+</html>

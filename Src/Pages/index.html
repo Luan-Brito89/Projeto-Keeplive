@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fontes -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="/Src/Style/reset.css">
+    <link rel="stylesheet" href="/Src/Style/Login.css">
+    
+    <title> Compass - Login</title>
+</head>
+<body>
+
+    <main class="login-screen">
+        <section class="container">
+
+            <div class="login-conteiner">
+                <div class="title-container">
+                    <h1 class="title">Olá</h1>
+                    <p class="text">Para continuar navegando de forma segura, efetue o login na rede.</p>
+                </div>
+
+                <div class="login-form">
+                    <h2 class="title-form">Login</h2>
+
+                    <form id="form" class="formulario" action="Home.html" method="GET">
+
+                        <div class="wrap-input-user">
+                            <input class="input" id="input-form-email" type="text" name="usuario"  placeholder="Usuário"  required="required" >
+                            <img class="icon-user" src="/Src/img/icon-user.png" alt="Usuário">
+                        </div>
+                        <div class="wrap-input-password">
+                            <input class="input" id="input-form-password" type="password" name="password"  placeholder="Senha" required="required" >
+                            <img class="icon-password" src="/Src/img/icon-password.png" alt="Password">
+
+                        </div>
+
+                        <div id="error" class="error-container">
+
+                        </div>
+
+                        <button type="submit" class="botao">Continuar</button>
+                    </form>
+
+
+                </div>
+
+                </form>
+
+
+        </section>
+
+        <div class="login-logo">
+            <img class="" src="/Src/img/logo-compasso.png" alt="Logo compass">
+
+        </div>
+
+
+    </main>
+
+    <script src="/Src/Js/login.js"></script>
+    
+</body>
+</html>
